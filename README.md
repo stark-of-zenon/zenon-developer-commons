@@ -77,31 +77,6 @@ You *do not* need to be an expert to participate.
 
 ---
 
-# ░░ Repository Structure ░░
-
-docs/
-├── architecture/
-│ ├── README.md
-│ └── architecture-overview.md
-│
-├── research/
-│ ├── README.md
-│ ├── browser-light-client-overview.md
-│ └── open-research-questions.md
-│
-├── proposals/
-│ └── README.md
-│
-└── notes/
-└── README.md
-
-README.md ← You are here
-
-
-This structure makes the repo easy to navigate and contribution-friendly.
-
----
-
 # ░░ Initial Research Areas ░░
 
 ### **Featured Research**
