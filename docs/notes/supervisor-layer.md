@@ -238,6 +238,7 @@ The Supervisor Layer is the organizing principle that makes the architecture mod
 
 
 9. Open Research Questions
+    
 	•	Should Supervisors be incentivized (e.g., via QSR rewards)?
 
 	•	What cryptographic format should State Proof Bundles adopt?
