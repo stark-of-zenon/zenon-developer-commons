@@ -6,6 +6,8 @@ Zenon could consume Bitcoin as a unilateral fact oracle: verifying external cons
 
 This demonstrates mathematical feasibility only and is not current functionality, active development, or a implementation commitment.
 
+The cryptographic primitives used are standard Bitcoin SPV constructs; the focus here is on their compatibility with Zenon’s ledger semantics, not on novel cryptography.
+
 ---
 
 ## What needs to be verified
