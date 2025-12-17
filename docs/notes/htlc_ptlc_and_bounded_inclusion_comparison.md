@@ -23,10 +23,12 @@ An HTLC or PTLC enforces a condition of the form:
 “This output is spendable if a specific cryptographic predicate is satisfied.”
 
 Examples:
+
 	•	HTLC: reveal a preimage before a timeout
 	•	PTLC: satisfy a discrete-log–based condition
 
 Crucially:
+
 	•	The verifier does not re-execute prior transactions
 	•	The verifier does not care about transaction ordering beyond the referenced output
 	•	The verifier checks only a small proof against a committed state
@@ -40,17 +42,21 @@ What bounded inclusion generalizes
 Bounded inclusion takes the same verification pattern and removes the hard-coded use case.
 
 Instead of:
+
 	•	“Is this hash preimage valid?”
 	•	“Does this signature satisfy this script?”
 
 It asks:
+
 	•	“Is this local state consistent with a header-committed state root?”
 
 Formally:
+
 	•	HTLCs/PTLCs verify one specific state predicate
 	•	Bounded inclusion verifies arbitrary local state predicates, as long as they are committed in the state root
 
 Both:
+
 	•	Avoid global execution
 	•	Rely on cryptographic commitments
 	•	Trade completeness for verifiability under tight resource bounds
@@ -64,6 +70,7 @@ HTLCs and PTLCs are usually viewed as features or contracts.
 Bounded inclusion is a verification primitive.
 
 That means:
+
 	•	HTLCs/PTLCs can be seen as special cases inside the bounded inclusion envelope
 	•	Bounded inclusion is not proposing new trust assumptions
 	•	It is naming and formalizing a pattern already used successfully in limited contexts
@@ -73,6 +80,7 @@ That means:
 What bounded inclusion does not claim
 
 This model does not claim:
+
 	•	Full transaction traceability
 	•	Canonical chain detection
 	•	Global consensus safety
