@@ -29,6 +29,14 @@
 - [SPV Light Verification (Extended)](notes/spv-light-verification/README.md)
 - [zApps Draft Notes (Extended)](notes/zapps-draft-notes/README.md)
 
+## Bounded Verification Series (Read in Order)
+- [1. Header-Only Verification](research/header-only-verification-research.md)
+- [1a. Header-Only Verification — Hostile Review](research/header-only-verification-hostile-review.md)
+- [2. Bounded Inclusion](research/bounded_inclusion_without_merkle_README.md)
+- [2a. Bounded Inclusion — Hostile Review](research/bounded-inclusion-hostile-review.md)
+- [3. Minimal State Frontier Verification](research/minimal-state-frontier-verification.md)
+- [3a. Minimal State Frontier — Hostile Review](research/minimal-state-frontier-hostile-review.md)
+
 ## Research
 - [Research Index](research/README.md)
 - [Bitcoin SPV on Zenon — Research Blueprint](research/bitcoin-spv-research-blueprint.md)
@@ -38,8 +46,6 @@
 - [Open Research Questions](research/open-research-questions.md)
 - [Engineering Roadmap: Bitcoin SPV](research/engineering-roadmap-bitcoin-spv.md)
 - [Taxonomy: Deterministic Fact Acceptance](research/taxonomy-deterministic-fact-acceptance.md)
-- [Header-Only Verification Research](research/header-only-verification-research.md)
-- [Header-Only Verification Hostile Review](research/header-only-verification-hostile-review.md)
 
 ## Proposals
 - [Proposals Index](proposals/README.md)
